@@ -49,6 +49,9 @@
   .hero-title {
     font-size: 28px;
   }
+  .inputs-card {
+    position: static;
+  }
 }
 
 /* Inputs card */
