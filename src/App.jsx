@@ -164,14 +164,14 @@ export default function App() {
               </label>
               <input
                 type="range"
-                min="0"
+                min="0.1"
                 max="15"
                 step="0.1"
                 value={tauxActuel}
                 onChange={(e) => setTauxActuel(Number(e.target.value))}
               />
               <div className="slider-bounds">
-                <span>0%</span>
+                <span>0.1%</span>
                 <span>15%</span>
               </div>
             </div>
@@ -182,14 +182,14 @@ export default function App() {
               </label>
               <input
                 type="range"
-                min="0"
+                min="0.1"
                 max="15"
                 step="0.1"
                 value={tauxCible}
                 onChange={(e) => setTauxCible(Number(e.target.value))}
               />
               <div className="slider-bounds">
-                <span>0%</span>
+                <span>0.1%</span>
                 <span>15%</span>
               </div>
               {errorTaux && (
